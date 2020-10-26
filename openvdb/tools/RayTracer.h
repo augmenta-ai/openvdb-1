@@ -34,11 +34,11 @@
 #include <vector>
 
 #ifdef OPENVDB_TOOLS_RAYTRACER_USE_EXR
-#include <OpenEXR/ImfPixelType.h>
-#include <OpenEXR/ImfChannelList.h>
-#include <OpenEXR/ImfOutputFile.h>
-#include <OpenEXR/ImfHeader.h>
-#include <OpenEXR/ImfFrameBuffer.h>
+#include <ImfPixelType.h>
+#include <ImfChannelList.h>
+#include <ImfOutputFile.h>
+#include <ImfHeader.h>
+#include <ImfFrameBuffer.h>
 #endif
 
 namespace openvdb {
